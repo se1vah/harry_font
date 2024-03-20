@@ -1,8 +1,11 @@
 
-1. Replace every element with the greatest element on right side
+1. Replace every element with the greatest element on right side ✅
 Last Updated: 06-05-2019
-Given an array of integers, replace every element with the next greatest element (greatest element on the right side) in the array. Since there is no element next to the last element, replace it with -1. For example, if the array is {16, 17, 4, 3, 5, 2}, then it should be modified to {17, 5, 5, 5, 2, -1}.
+Given an array of integers, replace every element with the next greatest element (greatest element on the right side) in the array. 
+Since there is no element next to the last element, replace it with -1. For example, if the array is {16, 17, 4, 3, 5, 2}, then it should be modified to {17, 5, 5, 5, 2, -1}.
+
 2. Given a Boolean matrix mat[M][N] of size M X N, modify it such that if a matrix cell mat[i][j] is 1 then make its adjacent cells as 0.
+
 3. Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes. For example, in an array A:
 Example :
 Input: A[] = {-7, 1, 5, 2, -4, 3, 0}
@@ -11,6 +14,7 @@ Output: 3
 A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
 Input: A[] = {1, 2, 3}
 Output: -1
+
 4. In MS-Paint, when we take the brush to a pixel and click, the color of the region of that pixel is replaced with a new selected color. Following is the problem statement to do this task.
 Given a 2D screen, location of a pixel in the screen and a color, replace color of the given pixel and all adjacent same colored pixels with the given color.
 Example:
