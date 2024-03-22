@@ -471,20 +471,18 @@ Output : 4 is the extra element in array 3 at index 5
 Input : [ 20, 7 ]
     [ 11, 5 ]
 Output : [ 1, 3 ]
-
 Explanation : 
 (20 + ?) % 11 
 ( 7 + ?) % 5
+
 73. Sort the array elements in descending order according to their frequency of occurrence
-
-
-
 Input : [ 2 2 3 4 5 12 2 3 3 3 12 ]
 Output : 3 3 3 3 2 2 2 12 12 4 5
 Explanation : 3 occurred 4 times, 2 occurred 3 times, 12 occurred 2 times, 4 occurred 1 time, 5 occurred 1 time
 Input : [ 0 -1 2 1 0 ]
 Output : 0 0 -1 1 2
 Note : sort single occurrence elements in ascending order
+
 74. Print true if second string is a substring of first string, else print false.
 Note : * symbol can replace n number of characters
 Input : Spoon  Sp*n  Output : TRUE
@@ -492,21 +490,19 @@ Input : Spoon  Sp*n  Output : TRUE
     Man       n*     Output : FALSE
     Subline  line   Output : TRUE
 
-
 75.Print second frequently occurring number in given series
 Example :
 Input: 1 1 2 3 1 2 4
 Output: 2
 Explanation: 1 occurs 3 times, 2 occurs 2 times, 3 occurs 1 time and 4 occurs 1 time. Hence second frequently occurring number in given series is 2
+
 76.Print only numbers which is present in Fibonacci series (0 1 1 2 3 5 8 ……..)
 Example:
-
-
-
 Input: 2 10 4 8
 Output: 2 8 
 Input: 1 10 6 8 13 21
 Output: 1 8 13 21
+
 77.. Print pattern like this
 Example:
 Input: 1
@@ -529,6 +525,7 @@ Output:
 1 0 1
 1 1 0
 1 1 1
+
 78. NxN matrix will be provided. 0->block, 1->Not a block
 Always starting point is (0,0), Ending point is (N-1,N-1).
 You have to go from starting point to ending point. One valid solution is enough.
@@ -545,6 +542,7 @@ Example:
    _ 0 0 1
    _ _ _ _
    0 0 0 _
+
 79.. Insert 0 after consecutive (K times) of 1 is found.
 Example:
 Input:
@@ -554,13 +552,16 @@ Consecutive K: 2
 
 Output:
 1 0 1 1 0 0 1 1 0 0 1 1 0 1 1 0
- 80.Find the maximum of three numbers?
+
+80.Find the maximum of three numbers?
+
 81. Print the total number of odd and even digits in the given number.
   
   Ex.  Input  :  1234567
 
     Output  :  ODD 4
         EVEN 3
+
 82. Find the second maximum among the given numbers.
   Ex.  INPUT  :  
     
@@ -588,6 +589,7 @@ Output:
     OUTPUT  :
 
     No second maximum
+
 83. Print the following pattern
   Ex.  INPUT  :  5
 
@@ -610,6 +612,7 @@ Output:
         1 4 6 4 1
        1 5 10 10 5 1
       1 6 15 20 15 6 1
+
 84. Given a two dimensional array which consists of only 0’s and 1’s. Print the matrix without duplication.
   Ex.  INPUT  :
     
@@ -627,6 +630,7 @@ Output:
     1 0 1
     1 1 0
     1 1 1
+
 85. Given an array of positive numbers. Print the numbers which have longest continuous range.
   Ex.  INPUT  :  
 
@@ -646,6 +650,7 @@ Output:
 
     1 2 3 4
     6 7 8 9
+
 86. Given two arrays. Find its union.
   Input  : 
 
@@ -657,6 +662,7 @@ Output:
   OUTPUT  :
 
   1 2 3 4 5 7
+
 8. Given an array of numbers. Print the numbers without duplication.
 
 
@@ -670,6 +676,7 @@ Output:
   OUTPUT  :
 
   1 2 4 
+
 88. Given an array of numbers and a number k. Print the maximum possible k digit number which can be formed using given numbers.
   INPUT  :  
   
@@ -690,6 +697,7 @@ Output:
   OUTPUT  :
 
   98973
+
 89. Given an array of numbers and a window of size k. Print the maximum of numbers inside the window for each step as the window moves from the beginning of the array.
   INPUT  :
   
@@ -700,18 +708,17 @@ Output:
   OUTPUT  :
 
   5 5 5 8 8 9
+
 90: Given a string, reverse only vowels in it; leaving rest of the string as it is.
 Input : abcdef
 Output : ebcdaf
+
 91 : Write a program to check if the given words are present in matrix given below. The words can be left to right, top to bottom and the diagonals (in top to bottom direction)
  
 92 : Write a program to form lines using given set of words. The line formation should follow below rules.
 i) Total characters in a single line excluding the space between the words and the favorite character should not exceed the given number.
 ii) Favorite character is case insensitive.
 iii) Words should not be broken up. Complete words alone should be used in a single line. A word should be used in one line only.
-
-
-
 Input : Max char per line = 10
         Favorite character = 'o'
         Words : Zoho, Eating, Watching, Pogo
@@ -719,6 +726,7 @@ Input : Max char per line = 10
 Output : Watching Zoho
          Eating Mango
          Loving Pogo.
+
 93. Adding 2 numbers
 Given 2 huge numbers as separate digits, store them in array and process them and calculate the sum of 2 numbers and store the result in an array and print the sum.
 Input:
@@ -728,31 +736,34 @@ Number of digits:9
 7 8 4 6 2 1 9 9 7
 Output :
 9 2 8 9 2 0 2 9 5 1 1 3
+
 94.Given sorted array check if two numbers sum in it is a given
 value
 Input
 Array = {1 3 4 8 10 } N = 7
 output
 true
+
 95. Compiuting value of sin (x)
 Input x = 30 n = 10
 output = 0.5
 Hint : The equation sin(x) = x – x^3 / 3! + x^5 / 5! – ….
 
-
-
 96. Write function to find multiplication of 2 numbers using +
 operator You must use minimum possible iterations.
 Input: 3 , 4
 Output 12
+
 97. Given array find maximum sum of contiguous sub array
 {-2 -3 4 -1 -2 1 5 -3}
 output 7 elements [ 4 -1 -2 1 5]
+
 98. Given unsorted array find all combination of the element for a given sum. Order should be maintained.
 Input :
 8 3 4 7 9 N=7
 Output
 {3 4 } {7}
+
 99. Given an odd length word which should be printed from the middle of the word.
 The output should be in the following pattern.
 Example:
@@ -765,7 +776,9 @@ Output:
      GRAMP
    GRAMPR
 GRAMPRO
+
 100. It is a program to implement Least Recently Used (LRU) concept. Given a key, if it is already existed then it should be marked as recently used otherwise a value should be stored which is given as input and marked as recently used. The capacity is to store only 10 key, value pairs. If the table is full and given a new key; the key, value pair which is not recently used should be deleted which gives feasibility to store the new key, value pair.
+
 101. Given a few pairs of names in the order child, father. The input is a person name and level number. The output should be the number of children in that particular level for the person given.
 Example:
 Input:
@@ -776,11 +789,9 @@ Input:
 {Subhash, Ram},
 {Karthik, Akil}
 ];
-
-
-
 Syam 2
 Output: 3 (Syam has Ram and Akil in level 1 and in level 2 he have Nikil, Subhash, Karthik. So the answer is 3).
+
 101 Given an array of positive integers. The output should be the number of occurrences of each number.
 Example:
 Input: {2, 3, 2, 6, 1, 6, 2}
@@ -789,39 +800,33 @@ Output:
 2 – 3
 3 – 1
 6 – 2
+
 102) Given an array, find the minimum of all the greater numbers for each element in the array.
-   
 Sample: 
 Array : {2, 3, 7, ¬1, 8, 5, 11} 
-   
 Output: 
 {2¬>3, 3¬>5, 7¬>8, ¬1¬>2, 8¬>11, 5¬>7, 11¬>} 
+
 103) Find the largest sum contiguous subarray which should not have negative numbers. We have to print the sum and the corresponding array elements which brought up the
 sum.
-
-
-
- 
 Sample: 
 Array : {¬2, 7, 5, ¬1, 3, 2, 9, ¬7} 
-
 Output: 
      Sum : 14 
      Elements : 3, 2, 9  
+
 104) Given a string, we have to reverse the string without changing the position of punctuations and spaces.
- 
 Sample:   house no : 123@ cbe 
 Output:    ebc32 1o :  nes@ uoh 
+
 105) Given a 2D grid of characters, you have to search for all the words in a dictionary by
 moving only along two directions, either right or down. Print the word if it occurs.
- 
 Sample :         
   a   z  o   l 
   n   x  h   o
   v   y   i   v 
   o   r   s  e 
  Dictionary = {van, zoho, love, are, is} 
- 
  Output: 
     zoho 
     love 
