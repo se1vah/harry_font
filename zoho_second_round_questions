@@ -131,7 +131,7 @@ output: {7, 1, 6, 2, 5, 3, 4}
 •	Output:
 Yes
 
-17.Given an array of integers, compute the maximum value for each integer in the index, by either summing all the digits or multiplying all the digits. (Choose which operation gives the maximum value)
+17.Given an array of integers, compute the maximum value for each integer in the index, by either summing all the digits or multiplying all the digits. (Choose which operation gives the maximum value)✅
 •	Input:
 •	5
 •	120 24 71 10 59
