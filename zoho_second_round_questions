@@ -70,7 +70,7 @@ Output: aBuzC9012
 7. Print whether the version is upgraded, downgraded or not changed according to the input given.
 example: Input : Version1 4.8.2 Version2 4.8.4 Output: upgraded, Input : Version1 4.0.2 Version2 4.8.4 Output: downgraded
 
-8. Q2. Print all possible subsets of the given array whose sum equal to given N.
+8. Q2. Print all possible subsets of the given array whose sum equal to given N. ✅
 example: Input: {1, 2, 3, 4, 5} N=6 Output: {1, 2, 3}, {1, 5}, {2, 4}
 
 9. Reverse the words in the given String1 from the first occurrence of String2 in String1 by maintaining white Spaces.
@@ -148,7 +148,7 @@ Input:   n*n matrix
 Output: 2 (two islands that I have 
 bold in matrix at 1, 1 and 2, 2)
 
-19. Print all the possible subsets of array which adds up to give a sum.
+19. Print all the possible subsets of array which adds up to give a sum.✅
 Input: array{2, 3, 5, 8, 10}
        sum=10
 Output: {2, 3, 5}
