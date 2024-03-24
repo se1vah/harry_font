@@ -1,19 +1,19 @@
 
-1. Replace every element with the greatest element on right side ✅
-Last Updated: 06-05-2019
-Given an array of integers, replace every element with the next greatest element (greatest element on the right side) in the array. 
-Since there is no element next to the last element, replace it with -1. For example, if the array is {16, 17, 4, 3, 5, 2}, then it should be modified to {17, 5, 5, 5, 2, -1}.
+1.✅ Replace every element with the greatest element on right side 
+       Last Updated: 06-05-2019
+       Given an array of integers, replace every element with the next greatest element (greatest element on the right side) in the array. 
+       Since there is no element next to the last element, replace it with -1. For example, if the array is {16, 17, 4, 3, 5, 2}, then it should be modified to {17, 5, 5, 5, 2, -1}.
 
 2. Given a Boolean matrix mat[M][N] of size M X N, modify it such that if a matrix cell mat[i][j] is 1 then make its adjacent cells as 0.
 
-3. Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes. For example, in an array A:
-Example :✅
-Input: A[] = {-7, 1, 5, 2, -4, 3, 0}
-Output: 3
-3 is an equilibrium index, because:
-A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
-Input: A[] = {1, 2, 3}
-Output: -1
+3.✅ Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes. For example, in an array A:
+       Example :
+       Input: A[] = {-7, 1, 5, 2, -4, 3, 0}
+       Output: 3
+       3 is an equilibrium index, because:
+       A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
+       Input: A[] = {1, 2, 3}
+       Output: -1
 
 4. In MS-Paint, when we take the brush to a pixel and click, the color of the region of that pixel is replaced with a new selected color. Following is the problem statement to do this task.
 Given a 2D screen, location of a pixel in the screen and a color, replace color of the given pixel and all adjacent same colored pixels with the given color.
@@ -46,42 +46,41 @@ Screen should be changed to following.
                       {1, 1, 1, 1, 1, 3, 3, 1},
                       };
 5. Given a matrix of 2D array of n rows and m coloumns. Print this matrix in ZIG-ZAG fashion as shown in figure.
- 
-Example:
-Input: 
-1 2 3
-4 5 6
-7 8 9
-Output: 
-1 2 4 7 5 3 6 8 9
+       Example:
+       Input: 
+       1 2 3
+       4 5 6
+       7 8 9
+       Output: 
+       1 2 4 7 5 3 6 8 9
 
-6. Remove the duplicates in the String.✅ (45 mins)
-Testcase 1:
-Input: Java1234
-Output: Javb1234 (Remove the second ‘a’ as it is duplicated)
-Testcase 2:
-Input: Python1223:
-Output: Python1234 (Replace the second 2 with 3, and replace 3 with 4 as 3 is replaced for the duplicated 2)
-Testcase 3:
-Input: aBuzZ9900
-Output: aBuzC9012
-(Replace the second ‘Z’ with ‘C’ as ‘a’ and ‘B’ are already there in the String. Replace with capital C as the letter to be replaced is capital Z. The second 9 turns out to be zero and the zero turns out to ‘1’ and the second zero turns out to ‘2’)
+6.✅ Remove the duplicates in the String. (45 mins)
+       Testcase 1:
+       Input: Java1234
+       Output: Javb1234 (Remove the second ‘a’ as it is duplicated)
+       Testcase 2:
+       Input: Python1223:
+       Output: Python1234 (Replace the second 2 with 3, and replace 3 with 4 as 3 is replaced for the duplicated 2)
+       Testcase 3:
+       Input: aBuzZ9900
+       Output: aBuzC9012
+       (Replace the second ‘Z’ with ‘C’ as ‘a’ and ‘B’ are already there in the String. Replace with capital C as the letter to be replaced is capital Z. The second 9 turns out to be zero and the zero turns out to ‘1’ and the second zero turns out to ‘2’)
 
 7. Print whether the version is upgraded, downgraded or not changed according to the input given.
-example: Input : Version1 4.8.2 Version2 4.8.4 Output: upgraded, Input : Version1 4.0.2 Version2 4.8.4 Output: downgraded
+       example: Input : Version1 4.8.2 Version2 4.8.4 Output: upgraded, Input : Version1 4.0.2 Version2 4.8.4 Output: downgraded
 
-8. Q2. Print all possible subsets of the given array whose sum equal to given N. ✅
-example: Input: {1, 2, 3, 4, 5} N=6 Output: {1, 2, 3}, {1, 5}, {2, 4}
+8.✅ Q2. Print all possible subsets of the given array whose sum equal to given N. 
+       example: Input: {1, 2, 3, 4, 5} N=6 Output: {1, 2, 3}, {1, 5}, {2, 4}
 
 9. Reverse the words in the given String1 from the first occurrence of String2 in String1 by maintaining white Spaces.
-example: String1 = Input: This is a test String only String2 = st Output: This is a only String test
+       example: String1 = Input: This is a test String only String2 = st Output: This is a only String test
 
 10. calculate Maximum number of chocolates can eat and Number of wrappers left in hand.
-Money: Total money one has to spend.
-Price: price per chocolate.
-wrappers: minimum number of wrappers for exchange choco: number of chocolate for wrappers.
-Max visit: Maximum number of times one can visit the shop.(if zero consider it infinite)
-example: input: Money:40 Price:1 wrappers:3 choco:1 Max visit:1 Output: total chocolate can eat: 53 wrappers left in hand:14
+       Money: Total money one has to spend.
+       Price: price per chocolate.
+       wrappers: minimum number of wrappers for exchange choco: number of chocolate for wrappers.
+       Max visit: Maximum number of times one can visit the shop.(if zero consider it infinite)
+       example: input: Money:40 Price:1 wrappers:3 choco:1 Max visit:1 Output: total chocolate can eat: 53 wrappers left in hand:14
 
 11. 
 Sample Input-
@@ -95,21 +94,18 @@ Rn ak
    Sample Input-
 
 13.Print the word with odd letters – PROGRAM
-Sample Output-
-P      P
- R    R 
-  O  O  
-   G   
-  R  R  
- A    A 
-M      M
+       Sample Output-
+       P      P
+        R    R 
+         O  O  
+          G   
+         R  R  
+        A    A 
+       M      M
 
-14.
-Sample Input – Alternate Sorting ✅
-
-
-Input: {1, 2, 3, 4, 5, 6, 7}
-output: {7, 1, 6, 2, 5, 3, 4}
+14.✅Sample Input – Alternate Sorting 
+       Input: {1, 2, 3, 4, 5, 6, 7}
+       output: {7, 1, 6, 2, 5, 3, 4}
  
 15.Given an array of values persons[], each represents the weight of the persons. There will be infinite bikes available. Given a value K which represents the maximum weight that a bike accommodates. Along with that one more condition, a bike can carry two persons at a time. You need to find out the least number of times, the bike trips are made.
 
@@ -131,29 +127,29 @@ output: {7, 1, 6, 2, 5, 3, 4}
 •	Output:
 Yes
 
-17.Given an array of integers, compute the maximum value for each integer in the index, by either summing all the digits or multiplying all the digits. (Choose which operation gives the maximum value)✅
-•	Input:
-•	5
-•	120 24 71 10 59
-•	Output:
-•	3 8 8 1 45
-Explanation: For index 0, the integer is 120. Summing the digits will give 3, and whereas Multiplying the digits gives 0. Thus, maximum of this two is 3.
+17.✅Given an array of integers, compute the maximum value for each integer in the index, by either summing all the digits or multiplying all the digits. (Choose which operation gives the maximum value)
+       •	Input:
+       •	5
+       •	120 24 71 10 59
+       •	Output:
+       •	3 8 8 1 45
+       Explanation: For index 0, the integer is 120. Summing the digits will give 3, and whereas Multiplying the digits gives 0. Thus, maximum of this two is 3.
 
 . 18. -1 represents ocean and 1 represents land find the number of islands in the given matrix.
-Input:   n*n matrix
-       1 -1 -1  1
-      -1  1 -1  1
-      -1 -1  1 -1
-      -1 -1 -1  1
-Output: 2 (two islands that I have 
-bold in matrix at 1, 1 and 2, 2)
+       Input:   n*n matrix
+              1 -1 -1  1
+             -1  1 -1  1
+             -1 -1  1 -1
+             -1 -1 -1  1
+       Output: 2 (two islands that I have 
+       bold in matrix at 1, 1 and 2, 2)
 
-19. Print all the possible subsets of array which adds up to give a sum.✅
-Input: array{2, 3, 5, 8, 10}
-       sum=10
-Output: {2, 3, 5}
-       {2, 8}
-       {10}
+19.✅ Print all the possible subsets of array which adds up to give a sum.
+       Input: array{2, 3, 5, 8, 10}
+              sum=10
+       Output: {2, 3, 5}
+              {2, 8}
+              {10}
 
 20. There is a circular queue of processes. Every time there will be certain no of process skipped and a particular start position. Find the safe position.
 Input: Number of process:5
@@ -196,14 +192,14 @@ some other possibilities of 33 is (11 + 11 + 10 + 1),   (11 + 10 + 10 + 1 + 1 ),
 
 30.Pattern
 
-31. 1. Pangram Checking✅
+31.✅Pangram Checking
        Check whether all english alphabets are present in the given sentence or not
        I/P: abc defGhi JklmnOP QRStuv wxyz
        O/P: True
        I/P: abc defGhi JklmnOP QRStuv
        O/P: False
 
-32. Password Strength✅
+32.✅ Password Strength
        Find the strength of the given password string based on the conditions
        Four rules were given based on the type and no. of characters in the string.
        Weak – only Rule 1 is satisfied or Rule 1 is not satisfied
