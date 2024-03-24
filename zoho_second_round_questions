@@ -203,7 +203,7 @@ O/P: True
 I/P: abc defGhi JklmnOP QRStuv
 O/P: False
 
-32. Password Strength
+32. Password Strength✅
 Find the strength of the given password string based on the conditions
 Four rules were given based on the type and no. of characters in the string.
 Weak – only Rule 1 is satisfied or Rule 1 is not satisfied
