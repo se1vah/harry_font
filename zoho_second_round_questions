@@ -197,41 +197,40 @@ some other possibilities of 33 is (11 + 11 + 10 + 1),   (11 + 10 + 10 + 1 + 1 ),
 30.Pattern
 
 31. 1. Pangram Checking✅
-Check whether all english alphabets are present in the given sentence or not
-I/P: abc defGhi JklmnOP QRStuv wxyz
-O/P: True
-I/P: abc defGhi JklmnOP QRStuv
-O/P: False
+       Check whether all english alphabets are present in the given sentence or not
+       I/P: abc defGhi JklmnOP QRStuv wxyz
+       O/P: True
+       I/P: abc defGhi JklmnOP QRStuv
+       O/P: False
 
 32. Password Strength✅
-Find the strength of the given password string based on the conditions
-Four rules were given based on the type and no. of characters in the string.
-Weak – only Rule 1 is satisfied or Rule 1 is not satisfied
-Medium – Two rules are satisfied
-Good – Three rules satisfied
-Strong – All Four rules satisfied
+       Find the strength of the given password string based on the conditions
+       Four rules were given based on the type and no. of characters in the string.
+       Weak – only Rule 1 is satisfied or Rule 1 is not satisfied
+       Medium – Two rules are satisfied
+       Good – Three rules satisfied
+       Strong – All Four rules satisfied
 
-I/P: Qw!1        O/P: Weak
-I/P: Qwertyuiop      O/P: Medium
-I/P: QwertY123       O/P: Good
-I/P: Qwerty@123    O/P: Strong
+       I/P: Qw!1        O/P: Weak
+       I/P: Qwertyuiop      O/P: Medium
+       I/P: QwertY123       O/P: Good
+       I/P: Qwerty@123    O/P: Strong
 
 33. First Occurrences
-Given two strings, find the first occurrence of all characters of second string in the first string and
-print the characters between the least and the highest index
-I/P: ZOHOCORPORATION PORT
-O/P: OHOCORPORAT
-Explanation: The index of P in first string is 7, O is 1, R is 6 and T is 11. The largest range is 1 – 11.
-So print the characters of the first string in this inex range i.e. OHOCORPORAT
+       Given two strings, find the first occurrence of all characters of second string in the first string and
+       print the characters between the least and the highest index
+       I/P: ZOHOCORPORATION PORT
+       O/P: OHOCORPORAT
+       Explanation: The index of P in first string is 7, O is 1, R is 6 and T is 11. The largest range is 1 – 11.
+       So print the characters of the first string in this inex range i.e. OHOCORPORAT
 
-34. Matrix Diagonal sum
-Given a matrix print the largest of the sums of the two triangles split by diagonal from top right to bottom left
-I/P:
-3 3
-1 2 3
-4 5 6
-7 8 9
-O/P: 38
+34. Matrix Diagonal sum Given a matrix print the largest of the sums of the two triangles split by diagonal from top right to bottom left
+       I/P:
+       3 3
+       1 2 3
+       4 5 6
+       7 8 9
+       O/P: 38
 
 35. Matrix Addition
 Given n integer arrays of different size, find the addititon of numbers represented by the arrays
