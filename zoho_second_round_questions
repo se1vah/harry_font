@@ -105,7 +105,7 @@ P      P
 M      M
 
 14.
-Sample Input – Alternate Sorting 
+Sample Input – Alternate Sorting ✅
 
 
 Input: {1, 2, 3, 4, 5, 6, 7}
@@ -196,7 +196,7 @@ some other possibilities of 33 is (11 + 11 + 10 + 1),   (11 + 10 + 10 + 1 + 1 ),
 
 30.Pattern
 
-31. 1. Pangram Checking
+31. 1. Pangram Checking✅
 Check whether all english alphabets are present in the given sentence or not
 I/P: abc defGhi JklmnOP QRStuv wxyz
 O/P: True
