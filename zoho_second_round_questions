@@ -161,7 +161,7 @@ Output: 1 will be the safest position
         1 2 3 4 5 process 4 will be skipped
         1 2 3 4 5 process 3 will be skipped, so safest process is 1.
 
-21.Given N. print the following snake pattern (say N = 4). condition:  must not use arrays ( 1D array  or 2D array like Matrix ).
+21.✅ Given N. print the following snake pattern (say N = 4). condition:  must not use arrays ( 1D array  or 2D array like Matrix ).
 1   2   3   4
 8   7   6    5
 9   10  11   12
